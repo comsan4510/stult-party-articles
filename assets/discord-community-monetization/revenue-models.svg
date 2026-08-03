@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">コミュニティ収益化の4つの型</title>
+  <desc id="desc">月額会員、単発販売、投げ銭、外部への送客を、収益の安定性と運用負荷で比較した図。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111633"/><stop offset="1" stop-color="#1c1740"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#080b1e" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1200" height="620" rx="36" fill="url(#bg)"/>
+  <text x="70" y="78" fill="#f5f3ff" font-family="sans-serif" font-size="34" font-weight="700">何を売る？ 収益化の4つの型</text>
+  <text x="70" y="116" fill="#aaa5c9" font-family="sans-serif" font-size="20">最初の一歩は「単発販売」が低リスク。月額会員は安定する反面、同期運用が重い。</text>
+  <g font-family="sans-serif" filter="url(#shadow)">
+    <g transform="translate(70 165)"><rect width="500" height="165" rx="24" fill="#272553" stroke="#8b7cf6" stroke-width="2"/><circle cx="64" cy="64" r="32" fill="#6d5ce7"/><path d="M48 64h32M64 48v32" stroke="white" stroke-width="6" stroke-linecap="round"/><text x="115" y="55" fill="white" font-size="28" font-weight="700">月額会員</text><text x="115" y="88" fill="#c9c5ee" font-size="19">収益: 安定　運用: 重い</text><text x="30" y="135" fill="#aaa5c9" font-size="18">継続課金・ロール同期・解約対応が必要</text></g>
+    <g transform="translate(630 165)"><rect width="500" height="165" rx="24" fill="#21314e" stroke="#48c5dd" stroke-width="2"/><circle cx="64" cy="64" r="32" fill="#20a9c5"/><path d="M48 55h32v24H48zM54 48h20" stroke="white" stroke-width="5" fill="none" stroke-linejoin="round"/><text x="115" y="55" fill="white" font-size="28" font-weight="700">単発販売</text><text x="115" y="88" fill="#c2e9ee" font-size="19">収益: 都度　運用: 軽い</text><text x="30" y="135" fill="#a9ccd4" font-size="18">イベント参加費など。最初の実験に向く</text></g>
+    <g transform="translate(70 370)"><rect width="500" height="165" rx="24" fill="#332646" stroke="#e88bc6" stroke-width="2"/><circle cx="64" cy="64" r="32" fill="#cd5ca4"/><path d="M64 82C47 70 43 58 50 51c6-6 12-3 14 2 3-5 9-8 15-2 7 7 3 19-15 31z" fill="white"/><text x="115" y="55" fill="white" font-size="28" font-weight="700">投げ銭・支援</text><text x="115" y="88" fill="#efd0e5" font-size="19">収益: 不定　運用: 最軽量</text><text x="30" y="135" fill="#d4afc8" font-size="18">権限管理を伴わず、事故が起きにくい</text></g>
+    <g transform="translate(630 370)"><rect width="500" height="165" rx="24" fill="#3b3022" stroke="#e9ad53" stroke-width="2"/><circle cx="64" cy="64" r="32" fill="#d59030"/><path d="M48 74l12-12 10 8 13-18M75 52h8v8" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="115" y="55" fill="white" font-size="28" font-weight="700">外部への送客</text><text x="115" y="88" fill="#f0dfc3" font-size="19">収益: 規模次第　運用: 中</text><text x="30" y="135" fill="#d7c19c" font-size="18">スポンサー・案件・アフィリエイト</text></g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc">
+  <title id="title">Discordコミュニティ収益化の構造</title>
+  <desc id="desc">決済、Bot、コミュニティの3要素と、その間にある同期の難しさを抽象的に表した編集図版。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090d1f"/><stop offset=".55" stop-color="#121533"/><stop offset="1" stop-color="#211339"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#7667ed" stop-opacity=".28"/><stop offset="1" stop-color="#7667ed" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#7e78aa" stroke-opacity=".12"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#03050e" flood-opacity=".6"/></filter>
+  </defs>
+  <rect width="1440" height="810" fill="url(#bg)"/>
+  <rect width="1440" height="810" fill="url(#grid)"/>
+  <circle cx="720" cy="420" r="410" fill="url(#glow)"/>
+  <g font-family="sans-serif">
+    <text x="88" y="100" fill="#8d85da" font-size="21" font-weight="700" letter-spacing="4">COMMUNITY × PAYMENT</text>
+    <text x="88" y="164" fill="#f8f7ff" font-size="50" font-weight="800">決済とコミュニティは、</text>
+    <text x="88" y="224" fill="#f8f7ff" font-size="50" font-weight="800">別々のシステムで動いている。</text>
+    <text x="91" y="274" fill="#b8b4d1" font-size="22">収益化の選択肢と、同期がズレる構造を一枚で理解する</text>
+  </g>
+  <g filter="url(#shadow)" font-family="sans-serif">
+    <g transform="translate(92 350)"><rect width="350" height="300" rx="28" fill="#151a35" stroke="#d89c43" stroke-width="2"/><rect x="28" y="28" width="294" height="56" rx="14" fill="#29243a"/><circle cx="59" cy="56" r="11" fill="#e7ae54"/><rect x="82" y="47" width="112" height="10" rx="5" fill="#655b70"/><rect x="28" y="112" width="294" height="112" rx="18" fill="#201e35"/><rect x="54" y="142" width="76" height="52" rx="9" fill="#b67829"/><path d="M72 168h40M92 148v40" stroke="#f8e2bd" stroke-width="4" opacity=".8"/><rect x="158" y="143" width="130" height="13" rx="6" fill="#6f667b"/><rect x="158" y="176" width="90" height="10" rx="5" fill="#4d485c"/><text x="28" y="265" fill="#f7f3ea" font-size="24" font-weight="700">PAYMENT</text><text x="28" y="290" fill="#b8a992" font-size="16">課金状態・顧客ID</text></g>
+    <g transform="translate(998 350)"><rect width="350" height="300" rx="28" fill="#151a35" stroke="#5296e8" stroke-width="2"/><rect x="28" y="28" width="76" height="244" rx="16" fill="#202846"/><circle cx="66" cy="66" r="18" fill="#5168d8"/><circle cx="66" cy="118" r="11" fill="#454f77"/><circle cx="66" cy="160" r="11" fill="#454f77"/><circle cx="66" cy="202" r="11" fill="#454f77"/><rect x="130" y="35" width="192" height="32" rx="10" fill="#202846"/><g fill="#242e4e"><rect x="130" y="91" width="192" height="48" rx="12"/><rect x="130" y="154" width="192" height="48" rx="12"/><rect x="130" y="217" width="192" height="48" rx="12"/></g><g fill="#66759d"><circle cx="154" cy="115" r="9"/><circle cx="154" cy="178" r="9"/><circle cx="154" cy="241" r="9"/></g><g fill="#4b5879"><rect x="175" y="108" width="92" height="10" rx="5"/><rect x="175" y="171" width="118" height="10" rx="5"/><rect x="175" y="234" width="80" height="10" rx="5"/></g><text x="130" y="262" fill="#eef5ff" font-size="22" font-weight="700">COMMUNITY</text><text x="130" y="282" fill="#9db4d5" font-size="14">ロール・チャンネル</text></g>
+    <g transform="translate(583 392)"><rect width="274" height="218" rx="30" fill="#211d47" stroke="#8070ed" stroke-width="2"/><circle cx="137" cy="88" r="48" fill="#6354d7"/><path d="M111 91h52M120 76l-9 15 9 15M154 76l9 15-9 15" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="137" y="163" text-anchor="middle" fill="white" font-size="23" font-weight="700">WEBHOOK + BOT</text><text x="137" y="190" text-anchor="middle" fill="#bdb7e8" font-size="16">2つの状態をつなぐ</text></g>
+  </g>
+  <path d="M442 500h130" stroke="#d89c43" stroke-width="4" stroke-dasharray="10 10"/><path d="M868 500h130" stroke="#5296e8" stroke-width="4" stroke-dasharray="10 10"/>
+  <circle cx="506" cy="500" r="7" fill="#d89c43"/><circle cx="934" cy="500" r="7" fill="#5296e8"/>
+  <g font-family="sans-serif"><rect x="465" y="690" width="510" height="58" rx="29" fill="#2a213c" stroke="#9e526b"/><circle cx="502" cy="719" r="10" fill="#e26e8c"/><text x="529" y="727" fill="#f4d9e0" font-size="20" font-weight="700">接続が切れると「課金済みなのに入れない」</text></g>
+</svg>

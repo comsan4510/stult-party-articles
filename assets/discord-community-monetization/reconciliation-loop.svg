@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">壊れても戻る同期設計</title>
+  <desc id="desc">Webhook受信、決済APIで再確認、冪等処理、Discordロール反映、毎日の全件突合、手動復旧を循環させる設計。</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101630"/><stop offset="1" stop-color="#191b43"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3 0 6z" fill="#7fd9e7"/></marker></defs>
+  <rect width="1200" height="620" rx="36" fill="url(#bg)"/>
+  <text x="65" y="72" fill="#f6f4ff" font-family="sans-serif" font-size="34" font-weight="700">壊れないのではなく「壊れても戻る」設計にする</text>
+  <g font-family="sans-serif">
+    <circle cx="600" cy="330" r="120" fill="#29265a" stroke="#7164df" stroke-width="3"/><text x="600" y="310" text-anchor="middle" fill="white" font-size="27" font-weight="700">会員状態を</text><text x="600" y="347" text-anchor="middle" fill="white" font-size="27" font-weight="700">収束させる</text><text x="600" y="382" text-anchor="middle" fill="#bfb9ea" font-size="18">決済側を正として復旧</text>
+    <g fill="#263754" stroke="#4bbfd0" stroke-width="2"><rect x="95" y="135" width="260" height="95" rx="22"/><rect x="470" y="105" width="260" height="95" rx="22"/><rect x="845" y="135" width="260" height="95" rx="22"/><rect x="845" y="430" width="260" height="95" rx="22"/><rect x="470" y="460" width="260" height="95" rx="22"/><rect x="95" y="430" width="260" height="95" rx="22"/></g>
+    <g fill="white" text-anchor="middle"><text x="225" y="175" font-size="22" font-weight="700">1. Webhook受信</text><text x="225" y="204" font-size="17" fill="#b9dce3">同期のきっかけ</text><text x="600" y="145" font-size="22" font-weight="700">2. APIで再確認</text><text x="600" y="174" font-size="17" fill="#b9dce3">通知を鵜呑みにしない</text><text x="975" y="175" font-size="22" font-weight="700">3. 冪等処理</text><text x="975" y="204" font-size="17" fill="#b9dce3">重複しても同じ結果</text><text x="975" y="470" font-size="22" font-weight="700">4. ロール反映</text><text x="975" y="499" font-size="17" fill="#b9dce3">429をリトライ</text><text x="600" y="500" font-size="22" font-weight="700">5. 毎日の全件突合</text><text x="600" y="529" font-size="17" fill="#b9dce3">取りこぼしを自動回復</text><text x="225" y="470" font-size="22" font-weight="700">6. 手動復旧</text><text x="225" y="499" font-size="17" fill="#b9dce3">管理画面・コマンド</text></g>
+    <path d="M355 173C410 135 430 135 470 145M730 145c40-10 70-4 115 28M1065 230c35 65 35 135 0 200M845 480c-40 25-75 30-115 20M470 500c-40 10-75 5-115-20M135 430c-35-65-35-135 0-200" fill="none" stroke="#7fd9e7" stroke-width="4" marker-end="url(#arrow)"/>
+  </g>
+</svg>
