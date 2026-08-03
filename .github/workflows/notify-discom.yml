@@ -1,0 +1,33 @@
+# 記事 push → Stult Party 本体 (comsan4510/discom) の再デプロイを叩く。
+# discom 側は cicd.yml の repository_dispatch (types: [articles]) が受け口で、
+# デプロイ時に backend/scripts/build_articles.py がこの repo を clone して
+# 静的 HTML にビルドする（記事は GitHub 正本・DB なし）。
+#
+# 要設定: Settings → Secrets and variables → Actions →
+#   DISCOM_DISPATCH_TOKEN = comsan4510/discom への repo 権限を持つ PAT
+# 未設定の間は警告を出してスキップする（workflow は緑のまま）。
+name: Rebuild Stult Party articles
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository_dispatch to discom
+        env:
+          TOKEN: ${{ secrets.DISCOM_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::warning::DISCOM_DISPATCH_TOKEN が未設定のため自動再ビルドをスキップしました。discom の Actions → CI/CD → Run workflow で手動反映してください。"
+            exit 0
+          fi
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/comsan4510/discom/dispatches \
+            -d '{"event_type":"articles"}'
+          echo "dispatched: discom will rebuild and deploy the articles"
