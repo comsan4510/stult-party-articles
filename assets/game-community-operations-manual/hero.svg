@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#071925"/>
+  <text x="60" y="72" fill="#45e0d0" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" letter-spacing="3">OPERATIONS MANUAL</text>
+  <text x="60" y="125" fill="#f4f8fb" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="35" font-weight="700">担当者が変わっても回る手順をつくる</text>
+  <text x="60" y="160" fill="#89a4b7" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16">選ぶ → 書く → 試す → 更新する</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" text-anchor="middle">
+    <rect x="60" y="255" width="220" height="160" rx="18" fill="#102f43" stroke="#45e0d0" stroke-width="2"/><text x="170" y="305" fill="#45e0d0" font-size="13" font-weight="700">01 SELECT</text><text x="170" y="355" fill="#fff" font-size="24" font-weight="700">業務を選ぶ</text><text x="170" y="386" fill="#8ba6b8" font-size="14">頻度 × 影響</text>
+    <path d="M280 335h55" stroke="#6f8da1" stroke-width="3"/><path d="M335 335l-12-8v16z" fill="#6f8da1"/>
+    <rect x="335" y="255" width="220" height="160" rx="18" fill="#102f43" stroke="#ffb53e" stroke-width="2"/><text x="445" y="305" fill="#ffb53e" font-size="13" font-weight="700">02 WRITE</text><text x="445" y="355" fill="#fff" font-size="24" font-weight="700">一枚に書く</text><text x="445" y="386" fill="#8ba6b8" font-size="14">動作・停止・記録</text>
+    <path d="M555 335h55" stroke="#6f8da1" stroke-width="3"/><path d="M610 335l-12-8v16z" fill="#6f8da1"/>
+    <rect x="610" y="255" width="220" height="160" rx="18" fill="#102f43" stroke="#c789d9" stroke-width="2"/><text x="720" y="305" fill="#c789d9" font-size="13" font-weight="700">03 TEST</text><text x="720" y="355" fill="#fff" font-size="24" font-weight="700">別担当が試す</text><text x="720" y="386" fill="#8ba6b8" font-size="14">口頭補足なし</text>
+    <path d="M830 335h55" stroke="#6f8da1" stroke-width="3"/><path d="M885 335l-12-8v16z" fill="#6f8da1"/>
+    <rect x="885" y="255" width="255" height="160" rx="18" fill="#102f43" stroke="#ff6b6b" stroke-width="2"/><text x="1012" y="305" fill="#ff6b6b" font-size="13" font-weight="700">04 IMPROVE</text><text x="1012" y="355" fill="#fff" font-size="24" font-weight="700">結果から更新</text><text x="1012" y="386" fill="#8ba6b8" font-size="14">質問・失敗・変更</text>
+  </g>
+  <rect x="270" y="505" width="660" height="62" rx="14" fill="#0e2c3f" stroke="#1f4b62"/><text x="600" y="543" text-anchor="middle" fill="#d8e5ed" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" font-weight="700">完成条件は「書いた」ではなく「別担当が実行できた」</text>
+</svg>

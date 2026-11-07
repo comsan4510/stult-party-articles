@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#071925"/><text x="60" y="70" fill="#45e0d0" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" letter-spacing="3">DOCUMENT REGISTRY</text><text x="60" y="122" fill="#f4f8fb" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="34" font-weight="700">正本・所有者・状態を台帳で管理する</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <rect x="60" y="185" width="430" height="360" rx="18" fill="#102f43" stroke="#45e0d0" stroke-width="2"/><text x="90" y="225" fill="#45e0d0" font-size="14" font-weight="700">MINIMUM FIELDS</text>
+    <text x="90" y="270" fill="#dce8ef" font-size="17">procedure_id / title / trigger</text><text x="90" y="307" fill="#dce8ef" font-size="17">owner_ref / backup_owner_ref</text><text x="90" y="344" fill="#dce8ef" font-size="17">source_of_truth / applies_to</text><text x="90" y="381" fill="#dce8ef" font-size="17">version / status</text><text x="90" y="418" fill="#dce8ef" font-size="17">review_due_at / last_tested_at</text><text x="90" y="455" fill="#dce8ef" font-size="17">related_rule_ref / change_reason</text><rect x="90" y="483" width="340" height="38" rx="8" fill="#173c50"/><text x="260" y="508" fill="#9fb5c4" font-size="14" text-anchor="middle">本文は複製せず正本へリンク</text>
+    <rect x="560" y="220" width="135" height="66" rx="12" fill="#18364a" stroke="#8ba6b8"/><text x="627" y="260" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">draft</text><path d="M695 253h55" stroke="#7593a5" stroke-width="3"/><path d="M750 253l-12-8v16z" fill="#7593a5"/>
+    <rect x="750" y="220" width="135" height="66" rx="12" fill="#3a2e20" stroke="#ffb53e"/><text x="817" y="260" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">testing</text><path d="M885 253h55" stroke="#7593a5" stroke-width="3"/><path d="M940 253l-12-8v16z" fill="#7593a5"/>
+    <rect x="940" y="220" width="150" height="66" rx="12" fill="#173b3d" stroke="#45e0d0"/><text x="1015" y="260" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">active</text>
+    <path d="M1015 286v100" stroke="#7593a5" stroke-width="3"/><path d="M1015 386l-8-12h16z" fill="#7593a5"/>
+    <rect x="940" y="386" width="150" height="66" rx="12" fill="#332b3d" stroke="#c789d9"/><text x="1015" y="426" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">retired</text>
+    <path d="M940 419H817V286" fill="none" stroke="#7593a5" stroke-width="3"/><path d="M817 286l-8 12h16z" fill="#7593a5"/>
+    <text x="817" y="493" fill="#91a9b9" font-size="15" text-anchor="middle">変更時は再テストへ戻す</text>
+  </g>
+</svg>

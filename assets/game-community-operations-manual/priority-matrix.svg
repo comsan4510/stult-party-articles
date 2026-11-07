@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#071925"/><text x="60" y="70" fill="#45e0d0" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" letter-spacing="3">PRIORITY MATRIX</text><text x="60" y="122" fill="#f4f8fb" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="34" font-weight="700">頻度と失敗時の影響で、書く順番を決める</text>
+  <g transform="translate(220 180)" font-family="Arial, 'Noto Sans JP', sans-serif">
+    <rect width="760" height="390" rx="18" fill="#0d293b" stroke="#294d61"/>
+    <rect x="20" y="20" width="350" height="165" rx="14" fill="#123247"/><text x="195" y="78" fill="#91a8b8" font-size="15" text-anchor="middle">低頻度 × 低影響</text><text x="195" y="120" fill="#fff" font-size="23" font-weight="700" text-anchor="middle">後回し</text><text x="195" y="151" fill="#91a8b8" font-size="14" text-anchor="middle">一度限りの装飾変更</text>
+    <rect x="390" y="20" width="350" height="165" rx="14" fill="#2d293b" stroke="#c789d9" stroke-width="2"/><text x="565" y="78" fill="#c789d9" font-size="15" text-anchor="middle">高頻度 × 低影響</text><text x="565" y="120" fill="#fff" font-size="23" font-weight="700" text-anchor="middle">標準化する</text><text x="565" y="151" fill="#a99ab0" font-size="14" text-anchor="middle">日次案内・募集確認</text>
+    <rect x="20" y="205" width="350" height="165" rx="14" fill="#3a2e20" stroke="#ffb53e" stroke-width="2"/><text x="195" y="263" fill="#ffb53e" font-size="15" text-anchor="middle">低頻度 × 高影響</text><text x="195" y="305" fill="#fff" font-size="23" font-weight="700" text-anchor="middle">中止条件を先に</text><text x="195" y="336" fill="#b9a589" font-size="14" text-anchor="middle">権限変更・緊急対応</text>
+    <rect x="390" y="205" width="350" height="165" rx="14" fill="#173b3d" stroke="#45e0d0" stroke-width="3"/><text x="565" y="263" fill="#45e0d0" font-size="15" text-anchor="middle">高頻度 × 高影響</text><text x="565" y="305" fill="#fff" font-size="23" font-weight="700" text-anchor="middle">最優先で作る</text><text x="565" y="336" fill="#91b9b7" font-size="14" text-anchor="middle">参加受付・安全確認</text>
+  </g>
+  <text x="600" y="620" fill="#8ea7b7" text-anchor="middle" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16">全部を書くのではなく、停止すると困る業務から始める</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#071925"/><text x="60" y="70" fill="#45e0d0" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" letter-spacing="3">ONE-PAGE PROCEDURE</text><text x="60" y="122" fill="#f4f8fb" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="34" font-weight="700">一枚手順書に必要な7項目</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <rect x="60" y="185" width="330" height="92" rx="14" fill="#102f43" stroke="#45e0d0"/><text x="86" y="220" fill="#45e0d0" font-size="13" font-weight="700">01 PURPOSE</text><text x="86" y="254" fill="#fff" font-size="22" font-weight="700">目的・完了後の状態</text>
+    <rect x="435" y="185" width="330" height="92" rx="14" fill="#102f43" stroke="#8ba6b8"/><text x="461" y="220" fill="#8ba6b8" font-size="13" font-weight="700">02 TRIGGER</text><text x="461" y="254" fill="#fff" font-size="22" font-weight="700">開始条件</text>
+    <rect x="810" y="185" width="330" height="92" rx="14" fill="#102f43" stroke="#ffb53e"/><text x="836" y="220" fill="#ffb53e" font-size="13" font-weight="700">03 PREREQUISITE</text><text x="836" y="254" fill="#fff" font-size="22" font-weight="700">前提・権限</text>
+    <rect x="60" y="315" width="330" height="92" rx="14" fill="#102f43" stroke="#c789d9"/><text x="86" y="350" fill="#c789d9" font-size="13" font-weight="700">04 STEPS</text><text x="86" y="384" fill="#fff" font-size="22" font-weight="700">番号付きの一動作</text>
+    <rect x="435" y="315" width="330" height="92" rx="14" fill="#102f43" stroke="#ff6b6b"/><text x="461" y="350" fill="#ff6b6b" font-size="13" font-weight="700">05 STOP</text><text x="461" y="384" fill="#fff" font-size="22" font-weight="700">中止条件</text>
+    <rect x="810" y="315" width="330" height="92" rx="14" fill="#102f43" stroke="#ffb53e"/><text x="836" y="350" fill="#ffb53e" font-size="13" font-weight="700">06 ESCALATION</text><text x="836" y="384" fill="#fff" font-size="22" font-weight="700">相談先・添付情報</text>
+    <rect x="245" y="445" width="710" height="105" rx="16" fill="#143b46" stroke="#45e0d0" stroke-width="2"/><text x="280" y="483" fill="#45e0d0" font-size="13" font-weight="700">07 RECORD</text><text x="280" y="521" fill="#fff" font-size="24" font-weight="700">完了条件・実施記録・次回確認日</text>
+  </g>
+  <text x="600" y="613" fill="#8ea7b7" text-anchor="middle" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16">秘密情報そのものは書かず、承認された保管先を示す</text>
+</svg>

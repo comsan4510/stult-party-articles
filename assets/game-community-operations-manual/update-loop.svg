@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#071925"/><text x="60" y="70" fill="#45e0d0" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" letter-spacing="3">UPDATE TRIGGERS</text><text x="60" y="122" fill="#f4f8fb" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="34" font-weight="700">定期日だけでなく、出来事から更新する</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <circle cx="600" cy="365" r="110" fill="#143b46" stroke="#45e0d0" stroke-width="3"/><text x="600" y="350" fill="#45e0d0" font-size="15" font-weight="700" text-anchor="middle">REVIEW</text><text x="600" y="387" fill="#fff" font-size="24" font-weight="700" text-anchor="middle">修正して</text><text x="600" y="419" fill="#fff" font-size="24" font-weight="700" text-anchor="middle">再テスト</text>
+    <rect x="70" y="205" width="240" height="95" rx="14" fill="#102f43" stroke="#8ba6b8"/><text x="95" y="241" fill="#8ba6b8" font-size="13" font-weight="700">01 CHANGE</text><text x="95" y="276" fill="#fff" font-size="20" font-weight="700">画面・権限の変更</text>
+    <rect x="70" y="420" width="240" height="95" rx="14" fill="#102f43" stroke="#ff6b6b"/><text x="95" y="456" fill="#ff6b6b" font-size="13" font-weight="700">02 FAILURE</text><text x="95" y="491" fill="#fff" font-size="20" font-weight="700">手順どおりで失敗</text>
+    <rect x="880" y="170" width="250" height="95" rx="14" fill="#102f43" stroke="#ffb53e"/><text x="905" y="206" fill="#ffb53e" font-size="13" font-weight="700">03 QUESTION</text><text x="905" y="241" fill="#fff" font-size="20" font-weight="700">同じ質問が二回</text>
+    <rect x="880" y="330" width="250" height="95" rx="14" fill="#102f43" stroke="#c789d9"/><text x="905" y="366" fill="#c789d9" font-size="13" font-weight="700">04 EXCEPTION</text><text x="905" y="401" fill="#fff" font-size="20" font-weight="700">例外・誤操作</text>
+    <rect x="880" y="490" width="250" height="95" rx="14" fill="#102f43" stroke="#45e0d0"/><text x="905" y="526" fill="#45e0d0" font-size="13" font-weight="700">05 REFERENCE</text><text x="905" y="561" fill="#fff" font-size="20" font-weight="700">ルール・連絡先変更</text>
+    <path d="M310 252C430 252 430 300 500 330M310 467C430 467 430 430 500 400M880 218C775 218 760 275 700 320M880 378H710M880 538C770 538 750 450 690 420" fill="none" stroke="#56778b" stroke-width="3"/>
+  </g>
+</svg>
