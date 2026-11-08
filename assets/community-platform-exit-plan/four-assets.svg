@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#071925"/><text x="60" y="70" fill="#45e0d0" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" letter-spacing="3">RECOVERY ASSETS</text><text x="60" y="122" fill="#f4f8fb" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="34" font-weight="700">守る対象を4層に分ける</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <rect x="80" y="190" width="1040" height="90" rx="16" fill="#143b46" stroke="#45e0d0" stroke-width="2"/><text x="115" y="226" fill="#45e0d0" font-size="13" font-weight="700">P0 — PEOPLE</text><text x="115" y="260" fill="#fff" font-size="23" font-weight="700">人と連絡経路</text><text x="520" y="250" fill="#abc3ce" font-size="16">緊急案内・責任者・代行者・本人が選べる参加入口</text>
+    <rect x="80" y="300" width="1040" height="90" rx="16" fill="#3a2e20" stroke="#ffb53e" stroke-width="2"/><text x="115" y="336" fill="#ffb53e" font-size="13" font-weight="700">P0 — ACTIVE STATE</text><text x="115" y="370" fill="#fff" font-size="23" font-weight="700">現在動いている活動</text><text x="520" y="360" fill="#cdbd9e" font-size="16">開催前募集・日時・定員・参加条件・受付状態</text>
+    <rect x="80" y="410" width="1040" height="90" rx="16" fill="#302a3c" stroke="#c789d9" stroke-width="2"/><text x="115" y="446" fill="#c789d9" font-size="13" font-weight="700">P1 — RULES</text><text x="115" y="480" fill="#fff" font-size="23" font-weight="700">現行の運営基準</text><text x="520" y="470" fill="#c7b3cd" font-size="16">参加ルール・判断範囲・問い合わせ先・最新版</text>
+    <rect x="80" y="520" width="1040" height="90" rx="16" fill="#162f42" stroke="#8ba6b8" stroke-width="2"/><text x="115" y="556" fill="#8ba6b8" font-size="13" font-weight="700">P1 / ARCHIVE — RECORDS</text><text x="115" y="590" fill="#fff" font-size="23" font-weight="700">必要な過去記録</text><text x="520" y="580" fill="#a9bac5" font-size="16">対応中案件・変更理由・閲覧権限・保存期限</text>
+  </g>
+</svg>
